@@ -1,0 +1,35 @@
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+---------------------------------------------------------------------------
+if system_dependent('IsDebugMode')==1, dbcont; end
+Training stage 0
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bbGt>getFiles/getFiles1', '/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/bbGt.m', 469)" style="font-weight:bold">bbGt>getFiles/getFiles1</a> (<a href="matlab: opentoline('/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/bbGt.m',469,0)">line 469</a>)
+'crop001001' has no corresponding file in
+/home/soe/workspace/matlab/toolbox/piotr_toolbox/data/Inria/train/posGt.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bbGt>getFiles', '/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/bbGt.m', 449)" style="font-weight:bold">bbGt>getFiles</a> (<a href="matlab: opentoline('/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/bbGt.m',449,0)">line 449</a>)
+for d=2:m, fs(d,:)=getFiles1(dirs{d},fs0,sep); end
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bbGt', '/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/bbGt.m', 88)" style="font-weight:bold">bbGt</a> (<a href="matlab: opentoline('/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/bbGt.m',88,0)">line 88</a>)
+[varargout{:}] = feval(action,varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('acfTrain>sampleWins', '/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/acfTrain.m', 240)" style="font-weight:bold">acfTrain>sampleWins</a> (<a href="matlab: opentoline('/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/acfTrain.m',240,0)">line 240</a>)
+  fs=bbGt('getFiles',fs); nImg=size(fs,2); assert(nImg>0);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('acfTrain', '/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/acfTrain.m', 136)" style="font-weight:bold">acfTrain</a> (<a href="matlab: opentoline('/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/acfTrain.m',136,0)">line 136</a>)
+    [Is1,IsOrig1] = sampleWins( detector, stage, 1 );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('acfDemoInria', '/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/acfDemoInria.m', 35)" style="font-weight:bold">acfDemoInria</a> (<a href="matlab: opentoline('/home/soe/workspace/matlab/toolbox/piotr_toolbox/toolbox/detector/acfDemoInria.m',35,0)">line 35</a>)
+detector = acfTrain( opts );
+} 
+acfDemoInria
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
